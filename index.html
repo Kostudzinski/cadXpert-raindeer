@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CadXpert</title>
+</head>
+
+<body>
+    <div class="background one"></div>
+    <div class="background two"></div>
+    <style>
+        body {
+            background-color: #303030;
+        }
+        
+        .background {
+            width: 100%;
+            height: 100vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .one {
+            background-image: url(los1.jpg);
+        }
+        
+        .two {
+            background-image: url(los4.jpg);
+            -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+            clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+        }
+    </style>
+
+</body>
+
+</html>
